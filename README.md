@@ -1,3 +1,3 @@
 # cjktty-patches
 
-Patches from [linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty) with minor changes.
+Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty) with minor changes.
