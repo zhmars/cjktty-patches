@@ -6,9 +6,9 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## CHANGES
 
-## 20201214 / 5.10
+### 20201214 / 5.10
 
-- Resync for linux-5.10
+- Resync for linux-5.10.y
 - Update glyphs for some Chinese punctuation marks
 - Support display rotation
 - Support `setfont` (NOTE: different font size can cause issues with this patch which expect to work with `8x16 / 16x32` font)
