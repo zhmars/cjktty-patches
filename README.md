@@ -6,7 +6,7 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## CHANGES
 
-### 2020.02.22 / 5.11
+### 2021.02.22 / 5.11
 
 - Resync for linux-5.11.y
 - Update CJK 32x32 font data to GNU Unifont 13.0.06
