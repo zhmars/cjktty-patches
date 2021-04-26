@@ -4,7 +4,7 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 **Note**: Starting from 5.10, the kernel config option `CONFIG_FONT_16x16_CJK` has been renamed to `CONFIG_FONT_CJK_16x16`.
 
-## CHANGES
+## Changes
 
 ### 2021.02.22 / 5.11
 
@@ -31,3 +31,11 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 - Resync for linux-5.8.10
 - Remove soft scrollback code support (upstream)
   - [torvalds/linux@5014547](https://github.com/torvalds/linux/commit/50145474f6ef4a9c19205b173da6264a644c7489)
+
+## Credits
+
+- [youbest](http://blog.chinaunix.net/uid/436750.html) for [original univt patches](https://github.com/zhmars/univt-patches/tree/master/v2.6)
+- [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty) for original cjktty patches
+- [AOSC-Dev/aosc-os-abbs](https://github.com/AOSC-Dev/aosc-os-abbs) for some univt's modifications
+- [GNU Unifont](https://unifoundry.com) for font data
+- [Terminus Font](http://terminus-font.sourceforge.net) for font data
