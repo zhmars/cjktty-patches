@@ -2,8 +2,6 @@
 
 Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty) with minor changes.
 
-**Note**:
-
 - Starting with 5.10 the kernel config option `CONFIG_FONT_16x16_CJK` has been renamed to `CONFIG_FONT_CJK_16x16`.
 - To have a larger font on high resolution screens, you probably want to apply 32x32 font data patch.
 - The patch built-in fonts expect to work with 8x16 or 16x32 fonts. When changing to other font sizes, characters may not display correctly.
