@@ -8,6 +8,13 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## Changes
 
+### 2022.03.21 / 5.17
+
+- Resync for linux-5.17.y
+- Update font data to GNU Unifont 14.0.02
+- Revert scroll acceleration code (upstream)
+  - [torvalds/linux@1148836](https://github.com/torvalds/linux/commit/1148836fd3226c20de841084aba24184d4fbbe77)
+
 ### 2022.01.10 / 5.16
 
 - Resync for linux-5.16.y
