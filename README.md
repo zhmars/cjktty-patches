@@ -8,6 +8,15 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## Changes
 
+### 2022.08.01 / 5.19
+
+- Resync for linux-5.19.y
+- Update font data to GNU Unifont 14.0.04
+- Update double width tables to Unicode 14.0.0
+- Fix cutoff issue for double width glyphs from Unifont (e.g.`①  ②  ③ `)
+- Avoid unnecessary check of characters width
+- Remove workaround from [Gentoo-zh/linux-cjktty@6caf83a](https://github.com/Gentoo-zh/linux-cjktty/commit/6caf83a638886220d1e1880c92e8b18243c3965a)
+
 ### 2022.05.23 / 5.18
 
 - Resync for linux-5.18.y
