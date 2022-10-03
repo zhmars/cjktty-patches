@@ -8,10 +8,20 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## Changes
 
+### 2022.10.03 / 6.0
+
+- Resync for linux-6.0.y
+- Update font data to Unifont 15.0.01
+- Update double width tables to Unicode 15.0.0
+- Minor cleanups
+
+<details>
+<summary>5.x (click to expand)</summary>
+
 ### 2022.08.01 / 5.19
 
 - Resync for linux-5.19.y
-- Update font data to GNU Unifont 14.0.04
+- Update font data to Unifont 14.0.04
 - Update double width tables to Unicode 14.0.0
 - Fix cutoff issue for double width glyphs from Unifont (e.g.`①  ②  ③ `)
 - Avoid unnecessary check of characters width
@@ -25,7 +35,7 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 ### 2022.03.21 / 5.17
 
 - Resync for linux-5.17.y
-- Update font data to GNU Unifont 14.0.02
+- Update font data to Unifont 14.0.02
 - Revert scroll acceleration code (upstream)
   - [torvalds/linux@1148836](https://github.com/torvalds/linux/commit/1148836fd3226c20de841084aba24184d4fbbe77)
 
@@ -37,13 +47,13 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ### 2021.09.17 / 5.14.5
 
-- Replace original 16x16 font with GNU Unifont for better unicode support
-- Update font data to GNU Unifont 14.0.01
+- Update font data to Unifont 14.0.01
+- Replace original 16x16 font with Unifont for better unicode support
 
 ### 2021.02.22 / 5.11
 
 - Resync for linux-5.11.y
-- Update CJK 32x32 font data to GNU Unifont 13.0.06
+- Update CJK 32x32 font data to Unifont 13.0.06
 - Reduce checkpatch.pl complaints
 - Remove charcount changes since it has been implemented (upstream)
   - [torvalds/linux@4ee5730](https://github.com/torvalds/linux/commit/4ee573086bd88ff3060dda07873bf755d332e9ba)
@@ -66,10 +76,12 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 - Remove soft scrollback code (upstream)
   - [torvalds/linux@5014547](https://github.com/torvalds/linux/commit/50145474f6ef4a9c19205b173da6264a644c7489)
 
+</details>
+
 ## Credits
 
 - [youbest](http://blog.chinaunix.net/uid/436750.html) for [original univt patches](https://github.com/zhmars/univt-patches/tree/master/v2.6)
 - [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty) for original cjktty patches
 - [AOSC-Dev/aosc-os-abbs](https://github.com/AOSC-Dev/aosc-os-abbs) for some univt's modifications
-- [GNU Unifont](https://unifoundry.com) for font data
+- [Unifont](https://savannah.gnu.org/projects/unifont) for font data
 - [Terminus Font](http://terminus-font.sourceforge.net) for font data
