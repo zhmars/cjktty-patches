@@ -8,6 +8,13 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## Changes
 
+### 2023.04.24 / 6.3
+
+- Resync for linux-6.3.y
+- Use saner names for more scroll variables & cache row count (upstream)
+  - [torvalds/linux@424c82a](https://github.com/torvalds/linux/commit/424c82af26b1b8ca6c0be06987a4e6d18c9a92dd)
+  - [torvalds/linux@bf8baa0](https://github.com/torvalds/linux/commit/bf8baa00668dbc4fcfca5ac49ae8a3059c795e4e)
+
 ### 2022.10.03 / 6.0
 
 - Resync for linux-6.0.y
