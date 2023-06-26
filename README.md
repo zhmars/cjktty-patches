@@ -8,6 +8,11 @@ Patches from [Gentoo-zh/linux-cjktty](https://github.com/Gentoo-zh/linux-cjktty)
 
 ## Changes
 
+### 2023.06.26 / 6.4
+
+- Resync for linux-6.4.y
+- Update font data to Unifont 15.0.06
+
 ### 2023.04.24 / 6.3
 
 - Resync for linux-6.3.y
